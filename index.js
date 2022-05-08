@@ -40,9 +40,8 @@ async function run() {
             res.send(result);
         });
 
-        app.put('/inventory/:id', async (req, res) => {
-            const newQuantity = req.body;
-
+        app.put('/inventory/:id', (req, res) => {
+            console.log(req.params.id)
         })
 
     }
