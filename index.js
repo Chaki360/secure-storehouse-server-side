@@ -49,6 +49,9 @@ run().catch(console.dir);
 app.get('/', (req, res) => {
     res.send('Running Warehouse Server');
 });
+app.get('/', (req, res) => {
+    res.send('Running Warehouse Server');
+});
 
 app.listen(port, () => {
     console.log('Listening something', port)
