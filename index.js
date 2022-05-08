@@ -49,6 +49,7 @@ run().catch(console.dir);
 app.get('/', (req, res) => {
     res.send('Running Warehouse Server');
 });
+});
 
 
 app.listen(port, () => {
